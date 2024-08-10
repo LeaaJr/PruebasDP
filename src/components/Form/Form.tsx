@@ -31,13 +31,13 @@ export function Form() {
   if (state.succeeded) {
     return (
       <ContainerSucces>
-        <h3>Thanks for getting in touch!</h3>
+        <h3>¡Gracias por ponerte en contacto!</h3>
         <button
           onClick={() => {
             window.scrollTo({ top: 0, behavior: 'smooth' })
           }}
         >
-          Back to the top
+          Volver a la cima
         </button>
         <ToastContainer />
       </ContainerSucces>
@@ -45,7 +45,7 @@ export function Form() {
   }
   return (
     <Container>
-      <h2>Get in touch using the form</h2>
+      <h2>Ponte en contacto</h2>
       <form onSubmit={handleSubmit}>
         <input
           placeholder="Email"
@@ -60,7 +60,7 @@ export function Form() {
         <ValidationError prefix="Email" field="email" errors={state.errors} />
         <textarea
           required
-          placeholder="Send a message to get started."
+          placeholder="Envia un mensaje"
           id="message"
           name="message"
           onChange={(e) => {
@@ -82,7 +82,7 @@ export function Form() {
           type="submit"
           disabled={state.submitting || !validEmail || !message || !isHuman}
         >
-          Submit
+          Enviar
         </button>
       </form>
       <ToastContainer />

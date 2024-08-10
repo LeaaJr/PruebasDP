@@ -9,18 +9,18 @@ export function Contact(){
   return(
     <Container id="contact">
       <header>
-        <h2>Contact</h2>
-        <p>Ready to get started on your project? </p>
-        <p>Contact me now for a Free consultation.</p>
+        <h2>Contacto</h2>
+        <p>Listo para un nuevo poryecto </p>
+        <p>Contácteme ahora.</p>
       </header>
       <div className="contacts">
         <div>
-        <a href="mailto:Hello@vinayaksingh.com"><img src={emailIcon} alt="Email" /></a> 
-          <a href="mailto:Hello@vinayaksingh.com">Hello@vinayaksingh.com</a>
+        <a href="mailto:leaadev@icloud.com"><img src={emailIcon} alt="Email" /></a> 
+          <a href="leaadev@icloud.com">leaadev@icloud.com</a>
         </div>
         <div>
         <a href="tel:+919630576848"><img src={phoneIcon} alt="Phone No" /></a>
-          <a href="tel:+919630576848">(+91) 9630576848</a>
+          <a href="tel:+919630576848">(+39) 3277290074</a>
         </div>  
       </div>
       <Form></Form>

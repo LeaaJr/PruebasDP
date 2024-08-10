@@ -1,5 +1,6 @@
 import { Container } from "./styles";
-import VinayakSingh from "../../assets/VinayakSingh.png";
+/* import VinayakSingh from "../../assets/VinayakSingh.png"; */
+import Lea from "../../assets/lm2.png";
 import wordpress from "../../assets/wordpress.svg";
 import shopify from "../../assets/shopify.svg";
 import htmlIcon from "../../assets/html-icon.svg";
@@ -17,23 +18,23 @@ export function About() {
     <Container id="about">
       <div className="about-text">
         <ScrollAnimation animateIn="fadeInLeft">
-          <h2>About me</h2>
+          <h2>Sobre mi</h2>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
           <p>
-            Hi there! I'm Vinayak, a website developer with a passion for creating custom online experiences for my clients. With a skill set including HTML, CSS, JavaScript, and React, I have the tools to bring any website vision to life.
+            Hola, soy un Desarrollador web con sólidos conocimientos en desarrollo front-end y back-end. Especializado en HTML5, CSS3, JavaScript, PHP, Python, frameworks como React.js o Angular, Boostrap bases de datos como MySQL o MongoDB, etc.
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
           <p>
-            But my services go beyond just custom development - I'm also proficient in using CMS systems like WordPress and Shopify, making it easy for my clients to take control of their own websites and keep them up to date.</p>
+          Experiencia en la creación de aplicaciones web responsivas y optimizadas, centradas en la usabilidad y la experiencia del usuario. Competente en la implementación de soluciones escalables y mantenibles, utilizando metodologías ágiles y las mejores prácticas de desarrollo. </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
           <p>
-            So if you're in need of a new website or just looking to revamp your current online presence, I'd love to chat and see how I can help. Let's bring your website dreams to reality together!</p>
+          En búsqueda activa de oportunidades para aplicar mi expertise y seguir creciendo profesionalmente en un entorno desafiante y colaborativo.</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000}>
-          <h3>Here are my main skills:</h3>
+          <h3>Estas son algunas de mis habilidades:</h3>
         </ScrollAnimation>
         <div className="hard-skills">
           <div className="hability">
@@ -90,7 +91,7 @@ export function About() {
       </div>
       <div className="about-image">
         <ScrollAnimation animateIn="fadeInRight" delay={0.20 * 1000}>
-          <img src={VinayakSingh} alt="Vinayak Singh" />
+          <img src={Lea} alt="lea" />
         </ScrollAnimation>
       </div>
     </Container>

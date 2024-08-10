@@ -54,6 +54,7 @@ export const Container = styled.section`
      transition: filter 0.5s;
      &:hover{
        filter: grayscale(0);
+      
      }
    }
   }
