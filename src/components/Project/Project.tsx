@@ -66,26 +66,23 @@ export function Project() {
                 <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
               </svg>
               <div className="project-links">
-                <a href="https://github.com/LeaaJr/Todo-List.git" target="\_blank" rel="noreferrer">
+                <a href="https://github.com/LeaaJr/calendar-py" target="\_blank" rel="noreferrer">
                   <img src={githubIcon} alt="Visit site" />
                 </a>
-                <a href="https://github.com/LeaaJr/Todo-List.git" target="\_blank" rel="noreferrer">
+                <a href="https://github.com/LeaaJr/calendar-py" target="\_blank" rel="noreferrer">
                   <img src={externalLink} alt="Visit site" />
                 </a>
               </div>
             </header>
             <div className="body">
-              <h3>Todo List</h3>
+              <h3>Calendario</h3>
               <p>
-                  Proyecto de principiante, se utilizaron lenguajes basicos y funciona de manera perfecta.
+                  Proyecto realizado con python.
               </p>
             </div>
             <footer>
               <ul className="tech-list">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>React</li>
+                <li>Python</li>
               </ul>
             </footer>
           </div>
