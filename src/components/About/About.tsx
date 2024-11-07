@@ -1,6 +1,6 @@
 import { Container } from "./styles";
 /* import VinayakSingh from "../../assets/VinayakSingh.png"; */
-import Lea from "../../assets/lm2.png";
+import Lea from "../../assets/imagen-removebg-preview.png";
 import wordpress from "../../assets/wordpress.svg";
 import shopify from "../../assets/shopify.svg";
 import htmlIcon from "../../assets/html-icon.svg";
@@ -22,16 +22,16 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
           <p>
-            Hola, soy un Desarrollador web con sólidos conocimientos en desarrollo front-end y back-end. Especializado en HTML5, CSS3, JavaScript, PHP, Python, frameworks como React.js o Angular, Boostrap bases de datos como MySQL o MongoDB, etc.
+            Hola, soy un Desarrollador web con sólidos conocimientos en desarrollo front-end y back-end. Especializado en HTML5, CSS3, JavaScript, PHP, Python, frameworks como React.js o Angular, Boostrap bases de datos como MySQL, MongoDB, y PostgresSQL.
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
           <p>
-          Experiencia en la creación de aplicaciones web responsivas y optimizadas, centradas en la usabilidad y la experiencia del usuario. Competente en la implementación de soluciones escalables y mantenibles, utilizando metodologías ágiles y las mejores prácticas de desarrollo. </p>
+          Estudie en la (UTN) universidad tecnologica nacional, luego realice un Bootcamp, entre varios cursos mas. </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
           <p>
-          En búsqueda activa de oportunidades para aplicar mi expertise y seguir creciendo profesionalmente en un entorno desafiante y colaborativo.</p>
+          Experiencia en la creación de aplicaciones web responsivas y optimizadas, centradas en la usabilidad y la experiencia del usuario. 3 años de experiencia en brindar servicios en la compañia TELECOM.</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000}>
           <h3>Estas son algunas de mis habilidades:</h3>

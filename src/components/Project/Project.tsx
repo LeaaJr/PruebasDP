@@ -16,17 +16,17 @@ export function Project() {
             <header>
               <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"> <title>Folder</title> <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path> </svg>
               <div className="project-links">
-                <a href="https://github.com/LeaaJr/ReactE3.git" target="_blank" rel="noreferrer">
+                <a href="https://github.com/LeaaJr/calculadoraReact.git" target="_blank" rel="noreferrer">
                   <img src={githubIcon} alt="Visit site" /></a>
-                <a href="https://github.com/LeaaJr/ReactE3.git" target="_blank" rel="noreferrer">
+                <a href="https://calculadora-react-48byik6cu-leaajrs-projects.vercel.app/" target="_blank" rel="noreferrer">
                   <img src={externalLink} alt="Visit site" />
                 </a> </div>
             </header>
             <div className="body">
-              <h3>React</h3>
-              <p> Proyecto diseñado especificamente con react, deployado en la plataforma de Vercel. </p>
+              <h3>Calculadora</h3>
+              <p> Calculadora diseñada con React, se realizo el deploy en Vercel </p>
             </div>
-            <footer> <ul className="tech-list"> <li>React</li> <li>JavaScript</li>  </ul> </footer>
+            <footer> <ul className="tech-list"> <li>React</li> <li>Javascript</li> <li>HTML</li> <li>CSS</li>  </ul> </footer>
           </div>
         </ScrollAnimation>
 
@@ -35,24 +35,25 @@ export function Project() {
             <header>
               <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"><title>Folder</title> <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path> </svg>
               <div className="project-links">
-                <a href="https://github.com/LeaaJr/ProyectFianlReact.git" target="_blank" rel="noreferrer">
+                <a href="https://github.com/LeaaJr/clima-climate.git" target="_blank" rel="noreferrer">
                   <img src={githubIcon} alt="Visit site" /> </a>
-                <a href="https://proyect-fianl-react-f98p.vercel.app/" target="_blank" rel="noreferrer">
+                <a href="https://clima-climate.vercel.app/" target="_blank" rel="noreferrer">
                   <img src={externalLink} alt="Visit site" /></a>
               </div>
             </header>
             <div className="body">
-              <h3>Proyecto web</h3>
+              <h3> Visor de clima </h3>
               <p>
-                 Proyecto web, se utilizaron algunos frameworks, realizada con react, se realizo el deploy en Vercel.
+                 Visor de clima, realizado con Angular entre otras dependencias este mismo funciona con 2 apis en simultaneo, se realizo el deploy en Vercel.
               </p>
             </div>
             <footer>
               <ul className="tech-list">
+                <li>Angular</li>
+                <li>Boostrap</li>
+                <li>TypeScript</li>
                 <li>HTML</li>
                 <li>CSS</li>
-                <li>JavaScript</li>
-                <li>React</li>
               </ul>
             </footer>
           </div>
@@ -66,23 +67,27 @@ export function Project() {
                 <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
               </svg>
               <div className="project-links">
-                <a href="https://github.com/LeaaJr/calendar-py" target="\_blank" rel="noreferrer">
+                <a href="https://github.com/LeaaJr/ProyectArg.git" target="\_blank" rel="noreferrer">
                   <img src={githubIcon} alt="Visit site" />
                 </a>
-                <a href="https://github.com/LeaaJr/calendar-py" target="\_blank" rel="noreferrer">
+                <a href="https://proyect-8jl3183i9-leaajrs-projects.vercel.app/" target="\_blank" rel="noreferrer">
                   <img src={externalLink} alt="Visit site" />
                 </a>
               </div>
             </header>
             <div className="body">
-              <h3>Calendario</h3>
+              <h3>Web de compras</h3>
               <p>
-                  Proyecto realizado con python.
+                  Página web de compras, esta misma realizada con React y su base de datos en PostgresSQL, el repositorio actualmente se encuentra privado. Deploy en Vercel.
               </p>
             </div>
             <footer>
               <ul className="tech-list">
-                <li>Python</li>
+                <li>React</li>
+                <li>Boostrap</li>
+                <li>JavaScript</li>
+                <li>HTML</li>
+                <li>CSS</li>
               </ul>
             </footer>
           </div>
