@@ -8,3 +8,6 @@ Este es mi portafolio.
 - React
 - Typescript
 - Styled Components.
+
+yarn install
+yarn run start
