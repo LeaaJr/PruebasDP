@@ -8,27 +8,8 @@ import ScrollAnimation from "react-animate-on-scroll";
 export function Project() {
   return (
     <Container id="project">
-      <h2>Algunos Proyectos</h2>
+      <h2>Some Projects</h2>
       <div className="projects">
-
-        <ScrollAnimation animateIn="flipInX">
-          <div className="project">
-            <header>
-              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"> <title>Folder</title> <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path> </svg>
-              <div className="project-links">
-                <a href="https://github.com/LeaaJr/calculadoraReact.git" target="_blank" rel="noreferrer">
-                  <img src={githubIcon} alt="Visit site" /></a>
-                <a href="https://calculadora-react-48byik6cu-leaajrs-projects.vercel.app/" target="_blank" rel="noreferrer">
-                  <img src={externalLink} alt="Visit site" />
-                </a> </div>
-            </header>
-            <div className="body">
-              <h3>Calculadora</h3>
-              <p> Calculadora diseñada con React, se realizo el deploy en Vercel </p>
-            </div>
-            <footer> <ul className="tech-list"> <li>React</li> <li>Javascript</li> <li>HTML</li> <li>CSS</li>  </ul> </footer>
-          </div>
-        </ScrollAnimation>
 
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
@@ -42,9 +23,9 @@ export function Project() {
               </div>
             </header>
             <div className="body">
-              <h3> Visor de clima </h3>
+              <h3> Weather viewer </h3>
               <p>
-                 Visor de clima, realizado con Angular entre otras dependencias este mismo funciona con 2 apis en simultaneo, se realizo el deploy en Vercel.
+                 Weather viewer, built with Angular among other dependencies, works with two APIs simultaneously, deployed in Vercel.
               </p>
             </div>
             <footer>
@@ -62,32 +43,53 @@ export function Project() {
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"> <title>Folder</title> <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path> </svg>
+              <div className="project-links">
+                <a href="https://github.com/LeaaJr/It-UX-Style" target="_blank" rel="noreferrer">
+                  <img src={githubIcon} alt="Visit site" /></a>
+                <a href="https://ux-clothes.vercel.app/" target="_blank" rel="noreferrer">
+                  <img src={externalLink} alt="Visit site" />
+                </a> </div>
+            </header>
+            <div className="body">
+              <h3>E-commerce</h3>
+              <p> SPA project built with React, using only the frontend; there's no backend in operation. Tailwind was used for the styles. The deployment was done in Vercel. </p>
+            </div>
+            <footer> <ul className="tech-list"> <li>SPA</li> <li>React</li> <li>Javascript</li> <li>TailwindUi</li>  </ul> </footer>
+          </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
               <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
                 <title>Folder</title>
                 <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
               </svg>
               <div className="project-links">
-                <a href="https://github.com/LeaaJr/ProyectArg.git" target="\_blank" rel="noreferrer">
+                <a href="https://github.com/LeaaJr/ViteClothes" target="\_blank" rel="noreferrer">
                   <img src={githubIcon} alt="Visit site" />
                 </a>
-                <a href="https://proyect-8jl3183i9-leaajrs-projects.vercel.app/" target="\_blank" rel="noreferrer">
+                <a href="https://vite-clothes.vercel.app/" target="\_blank" rel="noreferrer">
                   <img src={externalLink} alt="Visit site" />
                 </a>
               </div>
             </header>
             <div className="body">
-              <h3>Web de compras</h3>
+              <h3>E-commerce</h3>
               <p>
-                  Página web de compras, esta misma realizada con React y su base de datos en PostgresSQL, el repositorio actualmente se encuentra privado. Deploy en Vercel.
+                This project is a SPA. The backend is developed in Py, and various libraries were used, such as FastAPI, Bcrypt, Flask, Psycopg2, Python-dotenv, etc. Additionally, Axios was used to connect the backend and frontend via an API, and finally, Stripe was used to create a payment gateway. The frontend is developed in React Vite, and various libraries were used, such as React-Router, Lucide-React, Mui/Material, etc. Styled components were used.
               </p>
             </div>
             <footer>
               <ul className="tech-list">
-                <li>React</li>
-                <li>Boostrap</li>
-                <li>JavaScript</li>
-                <li>HTML</li>
-                <li>CSS</li>
+                <li>SPA</li>
+                <li>React Vite</li>
+                <li>Python</li>
+                <li>FastAPI</li>
+                <li>Bcrypt</li>
+                <li>Mui/Material</li>
+                <li>Axios</li>
               </ul>
             </footer>
           </div>

@@ -2,7 +2,7 @@ import { Container } from './styles'
 import { BrowserRouter as Router } from 'react-router-dom'
 import { NavHashLink, HashLink } from 'react-router-hash-link'
 import { useState } from 'react'
-import Resume from '../../assets/cv-esp-25.pdf'
+import Resume from '../../assets/Prof-cv-ing25.pdf'
 export function Header() {
   const [isActive, setActive] = useState(false)
   function toggleTheme() {
@@ -29,19 +29,19 @@ export function Header() {
         <label htmlFor="switch">Toggle</label>
         <nav className={isActive ? 'active' : ''}>
           <NavHashLink smooth to="#home" onClick={closeMenu}>
-            Inicio
+            Start
           </NavHashLink>
           <NavHashLink smooth to="#about" onClick={closeMenu}>
-            Acerca de Mi
+            About Me
           </NavHashLink>
           <NavHashLink smooth to="#project" onClick={closeMenu}>
-            Proyectos
+            Proyects
           </NavHashLink>
           <NavHashLink smooth to="#contact" onClick={closeMenu}>
-            Contacto
+            Contact
           </NavHashLink>
           <a href={Resume} download className="button">
-            Descargar CV
+            Download CV
           </a>
         </nav>
         <div

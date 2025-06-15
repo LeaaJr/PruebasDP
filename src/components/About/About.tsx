@@ -1,7 +1,6 @@
 import { Container } from "./styles";
 /* import VinayakSingh from "../../assets/VinayakSingh.png"; */
 import Lea from "../../assets/imagen-removebg-preview.png";
-import wordpress from "../../assets/wordpress.svg";
 import shopify from "../../assets/shopify.svg";
 import htmlIcon from "../../assets/html-icon.svg";
 import cssIcon from "../../assets/css-icon.svg";
@@ -18,30 +17,42 @@ export function About() {
     <Container id="about">
       <div className="about-text">
         <ScrollAnimation animateIn="fadeInLeft">
-          <h2>Sobre mi</h2>
+          <h2>About Me</h2>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
           <p>
-            Hola, soy un Desarrollador web con sólidos conocimientos en desarrollo front-end y back-end. Especializado en HTML5, CSS3, JavaScript, PHP, Python, frameworks como React.js o Angular, Boostrap bases de datos como MySQL, MongoDB, y PostgresSQL.
+            Backend: Python (FastAPI, Flask), SQL, ETL/ELT, API Design (REST/SOAP).
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
           <p>
-          Estudie en la (UTN) universidad tecnologica nacional, luego realice un Bootcamp, entre varios cursos mas. </p>
+            Frontend: React (Vite), JavaScript (ES6+), Tailwind, Material-UI.
+          </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
           <p>
-          Experiencia en la creación de aplicaciones web responsivas y optimizadas, centradas en la usabilidad y la experiencia del usuario. 3 años de experiencia en brindar servicios en la compañia TELECOM.</p>
+            Data Engineering: MuleSoft, Salesforce/Siebel integrations, OAuth 2.0, Data Loader.
+          </p>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000}>
-          <h3>Estas son algunas de mis habilidades:</h3>
+        <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000} style={{marginTop: "2rem", marginBottom: "2rem"}}>
+          <p>
+            DevOps: Docker, logging/monitoring, PostgreSQL, MongoDB.
+          </p>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="fadeInLeft" delay={0.5 * 1000} style={{marginTop: "2rem", marginBottom: "2rem"}}>
+          <p>
+            Why Work With Me?
+            Problem-Solver: From legacy system integrations to modern SPAs.
+
+            Detail-Oriented: Logging, testing, and monitoring baked into every project.
+
+            User-First: Clean UI (React) + robust backend (Python/SQL).
+          </p>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="fadeInLeft" delay={0.5 * 1000}>
+          <h3>These are some of my skills:</h3>
         </ScrollAnimation>
         <div className="hard-skills">
-          <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.10 * 1000}>
-              <img src={wordpress} alt="Wordpress" />
-            </ScrollAnimation>
-          </div>
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.12 * 1000}>
               <img src={shopify} alt="shopify" />
