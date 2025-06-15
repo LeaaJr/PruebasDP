@@ -7,8 +7,9 @@ import validator from 'validator'
 export function Form() {
   const [state, handleSubmit] = useForm('xknkpqry')
   const [validEmail, setValidEmail] = useState(false)
-  const [isHuman,] = useState(false)
+  const [isHuman, setIsHuman] = useState(false)
   const [message, setMessage] = useState('')
+  
   function verifyEmail(email: string) {
     if (validator.isEmail(email)) {
       setValidEmail(true)
@@ -16,6 +17,12 @@ export function Form() {
       setValidEmail(false)
     }
   }
+
+  // Handle reCAPTCHA verification
+/*   const handleRecaptcha = (token: string | null) => {
+    setIsHuman(!!token)
+  }
+
   useEffect(() => {
     if (state.succeeded) {
       toast.success('Email successfully sent!', {
@@ -26,25 +33,33 @@ export function Form() {
         toastId: 'succeeded',
       })
     }
-  })
+    if (state.errors) {
+      toast.error('Failed to send message. Please try again.', {
+        position: toast.POSITION.BOTTOM_LEFT,
+        toastId: 'error'
+      })
+    }
+  }, [state.succeeded, state.errors]) */
+
   if (state.succeeded) {
     return (
       <ContainerSucces>
-        <h3>¡Gracias por ponerte en contacto!</h3>
+        <h3>Thanks for getting in touch!</h3>
         <button
           onClick={() => {
             window.scrollTo({ top: 0, behavior: 'smooth' })
           }}
         >
-          Volver a la cima
+          Back to the top
         </button>
         <ToastContainer />
       </ContainerSucces>
     )
   }
+
   return (
     <Container>
-      <h2>Ponte en contacto</h2>
+      <h2>Get in touch</h2>
       <form onSubmit={handleSubmit}>
         <input
           placeholder="Email"
@@ -57,9 +72,10 @@ export function Form() {
           required
         />
         <ValidationError prefix="Email" field="email" errors={state.errors} />
+        
         <textarea
           required
-          placeholder="Envia un mensaje"
+          placeholder="Send a message"
           id="message"
           name="message"
           onChange={(e) => {
@@ -71,11 +87,12 @@ export function Form() {
           field="message"
           errors={state.errors}
         />
+
         <button
           type="submit"
           disabled={state.submitting || !validEmail || !message || !isHuman}
         >
-          Enviar
+          {state.submitting ? 'Sending...' : 'Send'}
         </button>
       </form>
       <ToastContainer />
